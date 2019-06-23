@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Color Descriptor</string>
+    <string name="find_description_button">Определить цвет</string>
+</resources>
