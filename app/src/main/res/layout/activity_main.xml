@@ -10,6 +10,8 @@
         android:id="@+id/colors_spinner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:entries="@array/colors"
+        android:layout_margin="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -19,6 +21,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/find_description_button"
+        android:layout_margin="8dp"
+        android:onClick="showDescription"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/colors_spinner" />
@@ -27,6 +31,7 @@
         android:id="@+id/description_temp_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/find_description_button" />
